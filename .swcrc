@@ -1,5 +1,18 @@
 {
   "jsc": {
+    // "experimental": {
+    //   "plugins": [
+    //     // @see https://github.com/swc-project/plugins/tree/main/packages/styled-components
+    //     [
+    //       "@swc/plugin-styled-components",
+    //       {
+    //         "displayName": true
+    //       }
+    //     ],
+    //     // @see https://github.com/swc-project/plugins/tree/main/packages/emotion
+    //     ["@swc/plugin-emotion"]
+    //   ]
+    // },
     "parser": {
       "syntax": "typescript",
       "tsx": true,

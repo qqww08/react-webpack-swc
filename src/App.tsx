@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import "./App.css";
 
 function App() {
@@ -16,9 +17,11 @@ function App() {
         >
           Learn React
         </a>
+        <Box>Box</Box>
       </header>
     </div>
   );
 }
 
 export default App;
+const Box = styled.div``;
